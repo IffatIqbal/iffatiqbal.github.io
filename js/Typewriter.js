@@ -5,7 +5,7 @@ var aText = new Array(
     "i play hockey", // add your text
     "and build ultralights" // add your text
     );
-    var iSpeed = 100; 
+    var iSpeed = 200; 
     var iIndex = 0; 
     var iArrLength = aText[0].length; 
     var iScrollAt = 20; 
@@ -34,4 +34,5 @@ var aText = new Array(
      } else {
       setTimeout("typewriter()", iSpeed);
      }
+
     }
